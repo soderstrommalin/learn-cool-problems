@@ -4,6 +4,7 @@
 
 export const even = (xs) => {
 	// Your code here...
+	// ajag är en kul kommentar
 	const list = []
 	for (let num of xs){
 		num % 2 == 0 ? list.push(num) : ''
